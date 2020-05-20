@@ -1,4 +1,3 @@
-# CFSRCNN
 ## Atention-guided CNN for image denoising（CFSRCNN）by Chunwei Tian, Yong Xu, Wangmeng Zuo, Bob Zhang, Lunke Fei and Chia-Wen Lin is accpted by IEEE Transactions on Multimedia, 2020 and it is implemented by Pytorch.
 
 ## Absract
