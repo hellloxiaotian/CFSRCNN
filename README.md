@@ -9,6 +9,9 @@
 #### torchvision 
 #### openCv for Python
 #### HDF5 for Python
+#### Numpy, Scipy
+#### Pillow, Scikit-image
+#### importlib
 
 ### 1. Network architecture of CFSRCNN.
 ![RUNOOB 图标](./images/1.png)
@@ -19,24 +22,24 @@
 ### 3. (a) The residual dense block (RDB) architecture proposed in [38]; (b) The FMM module in the CFSM [63].
 ![RUNOOB 图标](./images/3.png)
 
-#### 3. CFSRCNN for x2, x3 and x4 on Set5.
+### 4. CFSRCNN for x2, x3 and x4 on Set5.
 ![RUNOOB 图标](./images/4.png)
 
-#### 4. CFSRCNN for x2, x3 and x4 on Set14.
+### 5. CFSRCNN for x2, x3 and x4 on Set14.
 ![RUNOOB 图标](./images/5.png)
 
-#### 5. CFSRCNN for x2, x3 and x4 on B100.
+### 6. CFSRCNN for x2, x3 and x4 on B100.
 ![RUNOOB 图标](./images/6.png)
 
-#### 6. CFSRCNN for x2, x3 and x4 on U100.
+### 7. CFSRCNN for x2, x3 and x4 on U100.
 ![RUNOOB 图标](./images/7.png)
 
-#### 7. Visual results of Set14 for x2.
+### 8. Visual results of Set14 for x2.
 ![RUNOOB 图标](./images/8.png)
 
-#### 8. Visual results of B100 for x3.
+### 9. Visual results of B100 for x3.
 ![RUNOOB 图标](./images/9.png)
 
-#### 9. Visual results of U100 for x4.
+### 10. Visual results of U100 for x4.
 ![RUNOOB 图标](./images/10.png)
 
