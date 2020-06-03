@@ -34,12 +34,21 @@
 ### 7. CFSRCNN for x2, x3 and x4 on U100.
 ![RUNOOB 图标](./images/7.png)
 
-### 8. Visual results of Set14 for x2.
+### 8. CFSRCNN for x2, x3 and x4 on 720p.
+![RUNOOB 图标](./images/11.png)
+
+### 9. Running time of different methods on hr images of size 256x256, 512x512 and 1024x1024 for x2.
+![RUNOOB 图标](./images/12.png)
+
+### 10. Complexities of different methods for x2.
+![RUNOOB 图标](./images/13.png)
+
+### 11. Visual results of Set14 for x2.
 ![RUNOOB 图标](./images/8.png)
 
-### 9. Visual results of B100 for x3.
+### 12. Visual results of B100 for x3.
 ![RUNOOB 图标](./images/9.png)
 
-### 10. Visual results of U100 for x4.
+### 13. Visual results of U100 for x4.
 ![RUNOOB 图标](./images/10.png)
 
