@@ -28,13 +28,13 @@
 ### python div2h5.py
 
 ### x2
-### python train.py --patch_size 77 --batch_size 64 --max_steps 600000 --decay 400000 --model cfsrcnn --ckpt_name cfsrcnn --ckpt_dir checkpoint/cfsrcnnx2 --scale 2 --num_gpu 1       
+#### python train.py --patch_size 77 --batch_size 64 --max_steps 600000 --decay 400000 --model cfsrcnn --ckpt_name cfsrcnn --ckpt_dir checkpoint/cfsrcnnx2 --scale 2 --num_gpu 1       
 
 ### x3
-### python train.py --patch_size 77 --batch_size 64 --max_steps 600000 --decay 400000 --model cfsrcnn --ckpt_name cfsrcnn --ckpt_dir checkpoint/cfsrcnnx3 --scale 3 --num_gpu 1 
+#### python train.py --patch_size 77 --batch_size 64 --max_steps 600000 --decay 400000 --model cfsrcnn --ckpt_name cfsrcnn --ckpt_dir checkpoint/cfsrcnnx3 --scale 3 --num_gpu 1 
 
 ### x4
-### python train.py --patch_size 77 --batch_size 64 --max_steps 600000 --decay 400000 --model cfsrcnn --ckpt_name cfsrcnn --ckpt_dir checkpoint/cfsrcnnx4 --scale 4 --num_gpu 1 
+#### python train.py --patch_size 77 --batch_size 64 --max_steps 600000 --decay 400000 --model cfsrcnn --ckpt_name cfsrcnn --ckpt_dir checkpoint/cfsrcnnx4 --scale 4 --num_gpu 1 
 
 ### Test 
 ### x2
