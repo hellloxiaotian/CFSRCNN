@@ -22,6 +22,23 @@
 #### The  test dataset of B100 is downloaded at 链接：https://pan.baidu.com/s/1GV99jmj2wrEEAQFHSi8jWw （secret code：fhs2) (baiduyun) or https://drive.google.com/file/d/1G8FCPxPEVzaBcZ6B-w-7Mk8re2WwUZKl/view?usp=sharing (google drive) 
 #### The  test dataset of Urban100 is downloaded at 链接：https://pan.baidu.com/s/15k55SkO6H6A7zHofgHk9fw (secret code：2hny) (baiduyun) or https://drive.google.com/file/d/1yArL2Wh79Hy2i7_YZ8y5mcdAkFTK5HOU/view?usp=sharing (google drive) 
 
+### Train ADNet-S (ADNet with known noise level)
+#### python train.py --prepropcess True --num_of_layers 17 --mode S --noiseL 25 --val_noiseL 25    
+
+### Train ADNet-B (DnCNN with blind noise level)
+#### python train.py --preprocess True --num_of_layers 17 --mode B --val_noiseL 25
+
+### Test 
+### x2
+#### python tcw_sample.py --model cfsrcnn --test_data_dir dataset/Urban100 --scale 2 --ckpt_path checkpoint/x2/cfsrcnn_x2.pth 
+--sample_dir samples_urban100_x2
+### x3
+#### python tcw_sample.py --model cfsrcnn --test_data_dir dataset/Urban100 --scale 3 --ckpt_path checkpoint/x3/cfsrcnn_x3.pth 
+--sample_dir samples_urban100_x3
+### x4
+#### python tcw_sample.py --model cfsrcnn --test_data_dir dataset/Urban100 --scale 4 --ckpt_path checkpoint/x3/cfsrcnn_x4.pth 
+--sample_dir samples_urban100_x4
+
 ### 1. Network architecture of CFSRCNN.
 ![RUNOOB 图标](./images/1.png)
 
