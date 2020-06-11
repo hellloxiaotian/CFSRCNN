@@ -26,10 +26,13 @@
 ### preprocessing
 ### cd dataset
 ### python div2h5.py
+
 ### x2
-### python train.py --batch_size 64 --max_steps 600000 --decay 400000 --model cfsrcnn --ckpt_name cfsrcnn --ckpt_dir checkpoint/cfsrcnnx2 --scale 2 --num_gpu 1        
+### python train.py --batch_size 64 --max_steps 600000 --decay 400000 --model cfsrcnn --ckpt_name cfsrcnn --ckpt_dir checkpoint/cfsrcnnx2 --scale 2 --num_gpu 1       
+
 ### x3
 ### python train.py --batch_size 64 --max_steps 600000 --decay 400000 --model cfsrcnn --ckpt_name cfsrcnn --ckpt_dir checkpoint/cfsrcnnx3 --scale 3 --num_gpu 1 
+
 ### x4
 ### python train.py --batch_size 64 --max_steps 600000 --decay 400000 --model cfsrcnn --ckpt_name cfsrcnn --ckpt_dir checkpoint/cfsrcnnx4 --scale 4 --num_gpu 1 
 
@@ -37,12 +40,15 @@
 ### x2
 #### python tcw_sample.py --model cfsrcnn --test_data_dir dataset/Urban100 --scale 2 --ckpt_path checkpoint/x2/cfsrcnn_x2.pth 
 --sample_dir samples_urban100_x2
+
 ### x3
 #### python tcw_sample.py --model cfsrcnn --test_data_dir dataset/Urban100 --scale 3 --ckpt_path checkpoint/x3/cfsrcnn_x3.pth 
 --sample_dir samples_urban100_x3
+
 ### x4
 #### python tcw_sample.py --model cfsrcnn --test_data_dir dataset/Urban100 --scale 4 --ckpt_path checkpoint/x3/cfsrcnn_x4.pth 
 --sample_dir samples_urban100_x4
+
 
 ### 1. Network architecture of CFSRCNN.
 ![RUNOOB 图标](./images/1.png)
