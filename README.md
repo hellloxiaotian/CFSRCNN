@@ -23,12 +23,12 @@
 #### The  test dataset of Urban100 is downloaded at 链接：https://pan.baidu.com/s/15k55SkO6H6A7zHofgHk9fw (secret code：2hny) (baiduyun) or https://drive.google.com/file/d/1yArL2Wh79Hy2i7_YZ8y5mcdAkFTK5HOU/view?usp=sharing (google drive) 
 
 ### Train 
-#### x2
-#### python train.py --prepropcess True --num_of_layers 17 --mode S --noiseL 25 --val_noiseL 25    
-#### x3
-####
-#### x4
-####
+### x2
+### python train.py --batch_size 64 --max_steps 600000 --decay 400000 --model cfsrcnn --ckpt_name cfsrcnn --ckpt_dir checkpoint/cfsrcnnx2 --scale 2 --num_gpu 1        
+### x3
+### python train.py --batch_size 64 --max_steps 600000 --decay 400000 --model cfsrcnn --ckpt_name cfsrcnn --ckpt_dir checkpoint/cfsrcnnx3 --scale 3 --num_gpu 1 
+### x4
+### python train.py --batch_size 64 --max_steps 600000 --decay 400000 --model cfsrcnn --ckpt_name cfsrcnn --ckpt_dir checkpoint/cfsrcnnx4 --scale 4 --num_gpu 1 
 
 ### Test 
 ### x2
