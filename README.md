@@ -91,8 +91,8 @@
 ![RUNOOB 图标](./images/10.png)
 
 ### If you want to cite this paper, please refer to the following formats:
-#### Tian C, Xu Y, Zuo W, et al. Coarse-to-fine CNN for image super-resolution[J]. IEEE Transactions on Multimedia, 2020.
-#### @article{tian2020coarse,
+#### 1. Tian C, Xu Y, Zuo W, et al. Coarse-to-fine CNN for image super-resolution[J]. IEEE Transactions on Multimedia, 2020.
+#### 2. @article{tian2020coarse,
 #### title={Coarse-to-fine CNN for image super-resolution},
 #### author={Tian, Chunwei and Xu, Yong and Zuo, Wangmeng and Zhang, Bob and Fei, Lunke and Lin, Chia-Wen},
 #### journal={IEEE Transactions on Multimedia},
