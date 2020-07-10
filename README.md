@@ -40,15 +40,15 @@
 ### Test 
 ### x2
 #### python tcw_sample.py --model cfsrcnn --test_data_dir dataset/Urban100 --scale 2 --ckpt_path checkpoint/x2/cfsrcnn_x2.pth 
---sample_dir samples_urban100_x2
+#### --sample_dir samples_urban100_x2
 
 ### x3
 #### python tcw_sample.py --model cfsrcnn --test_data_dir dataset/Urban100 --scale 3 --ckpt_path checkpoint/x3/cfsrcnn_x3.pth 
---sample_dir samples_urban100_x3
+#### --sample_dir samples_urban100_x3
 
 ### x4
 #### python tcw_sample.py --model cfsrcnn --test_data_dir dataset/Urban100 --scale 4 --ckpt_path checkpoint/x3/cfsrcnn_x4.pth 
---sample_dir samples_urban100_x4
+#### --sample_dir samples_urban100_x4
 
 
 ### 1. Network architecture of CFSRCNN.
