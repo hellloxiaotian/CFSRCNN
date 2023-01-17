@@ -1,4 +1,4 @@
-## Coarse-to-Fine CNN for Image Super-Resolution（CFSRCNN）is conducted by Chunwei Tian, Yong Xu, Wangmeng Zuo, Bob Zhang, Lunke Fei and Chia-Wen Lin and is accpted by IEEE Transactions on Multimedia (IF:8.182), 2020. It is implemented by Pytorch. And this work is reported by 52CV at https://mp.weixin.qq.com/s/N5SXUFmqYMN0XQJbVvBPEg. Besides, it was also reported by CCF MM at https://mp.weixin.qq.com/s/-rUmRDFbPvKMjU0EIYV3Rg.
+## Coarse-to-Fine CNN for Image Super-Resolution（CFSRCNN）is conducted by Chunwei Tian, Yong Xu, Wangmeng Zuo, Bob Zhang, Lunke Fei and Chia-Wen Lin and is accpted by IEEE Transactions on Multimedia (IF:8.182), 2020. It is implemented by Pytorch. And this work is reported by 52CV at https://mp.weixin.qq.com/s/N5SXUFmqYMN0XQJbVvBPEg. Besides, it was also reported by CCF MM at https://mp.weixin.qq.com/s/-rUmRDFbPvKMjU0EIYV3Rg. It is a ESI highly-cited paper and a homepage paper of the IEEE TMM. 
 
 ## This paper uses high- and low-frequency features to enhance the stability of image super-resolution model. 
 
